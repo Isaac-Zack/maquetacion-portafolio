@@ -205,6 +205,7 @@ p {
   transition: opacity 0.5s ease;
   transition: background-color 0.5s ease;
   pointer-events: none;
+  background-color: transparent;
 }
 
 .menu-is-active {
