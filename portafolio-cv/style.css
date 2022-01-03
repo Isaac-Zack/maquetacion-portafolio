@@ -203,13 +203,14 @@ p {
   flex-direction: column;
   opacity: 0;
   transition: opacity 0.5s ease;
+  transition: background-color 0.5s ease;
   pointer-events: none;
-  background-color: var(--third-color);
 }
 
 .menu-is-active {
   opacity: 1;
   pointer-events: auto;
+  background-color: var(--third-color)
 }
 
 .menu a {
